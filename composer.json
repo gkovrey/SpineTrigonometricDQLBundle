@@ -1,0 +1,22 @@
+{
+    "name": "gkovrey/spine-trigonometric-dql-bundle",
+    "type": "symfony-bundle",
+    "description": "Set of triginometric functions for DQL in Doctrine.",
+    "keywords": ["doctrine2", "symfony3", "symfony2", "DQL", "Trigonometric", "SIN", "COS"],
+    "homepage": "https://github.com/gkovrey/SpineTrigonometricDQLBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Kovrey",
+            "homepage": "https://github.com/gkovrey"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.1|~3.0",
+        "doctrine/orm": ">=2.2.3"
+    },
+    "autoload": {
+        "psr-4": {"Spine\\TrigonometricDQLBundle\\": ""}
+    }
+}
